@@ -25,13 +25,13 @@ return (
       
       <section  className="  bg-[#dbd1c0] py-0.5">
        
-        <div className="  hidden lg:flex justify-between items-center py-1 h-20">
-           <img src={logo} alt="company logo" className="w-35 h-35 object-contain gap-20" />
-          <ul className="flex items-center gap-30 text-lg  mt-0">
+        <div className="  hidden lg:flex justify-between items-center py-1 h-20 ">
+           <img src={logo} alt="company logo" className="w-35 h-35 object-contain gap-20 hover:scale-120 transition" />
+          <ul className="flex items-center gap-30 text-lg  mt-0 ">
             
-            <li >Home</li>
-            <li>About</li>
-            <li>Register</li>
+            <li className="hover:scale-120 transition">Home</li>
+            <li className="hover:scale-120 transition">About</li>
+            <li className="hover:scale-120 transition">Register</li>
 
             <img
               src={picture4}

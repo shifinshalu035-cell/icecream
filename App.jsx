@@ -1,5 +1,6 @@
 
 import Categories from "./component/catogories";
+import Footer from "./component/footer";
 import Hero from "./component/hero";
 function App(){
   return(
@@ -7,6 +8,7 @@ function App(){
       
       <Hero/>
       <Categories/>  
+      <Footer/>
   </>
   );
 }
