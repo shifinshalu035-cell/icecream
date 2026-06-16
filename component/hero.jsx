@@ -23,7 +23,7 @@ return (
     <>
       
       <section >
-        <div className="  hidden lg:flex justify-center items-center py-8">
+        <div className="  hidden lg:flex justify-center items-center py-3">
           <ul className="flex items-center gap-12 text-lg ">
             <li >Home</li>
             <li>About</li>
@@ -45,7 +45,7 @@ return (
           
           <h1
   data-aos="fade-left"
-  className="text-6xl font-bold text-blue-950 leading-tight"
+  className="text-6xl  text-blue-950   Playfair Display leading-tight"
 >
   Find your new <br />
   favorite flavor.
