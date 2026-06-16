@@ -6,6 +6,7 @@ import title from "../assets/title.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import logo from "../assets/man.png";
 
 import picture4 from "../assets/pic4.png";
 
@@ -22,9 +23,12 @@ return (
 
     <>
       
-      <section >
-        <div className="  hidden lg:flex justify-center items-center py-3">
-          <ul className="flex items-center gap-12 text-lg ">
+      <section  className="  bg-[#dbd1c0] py-0.5">
+       
+        <div className="  hidden lg:flex justify-between items-center py-1 h-20">
+           <img src={logo} alt="company logo" className="w-35 h-35 object-contain gap-20" />
+          <ul className="flex items-center gap-30 text-lg  mt-0">
+            
             <li >Home</li>
             <li>About</li>
             <li>Register</li>
@@ -45,7 +49,7 @@ return (
           
           <h1
   data-aos="fade-left"
-  className="text-6xl  text-blue-950   Playfair Display leading-tight"
+  className=" text-3xl lg:text-6xl  text-blue-950   Playfair Display leading-tight"
 >
   Find your new <br />
   favorite flavor.
@@ -63,7 +67,7 @@ return (
           </div>
 
           
-          <div className="flex flex-col items-center gap-10 mt-10">
+          <div className="flex flex-col items-center gap-10 mt-10 w-full lg:1/2">
 
             <button className="bg-blue-600 text-white px-8 py-4 rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition duration-300">
               Explore Flavors
@@ -73,31 +77,31 @@ return (
               <img
                 src={chocolate}
                 alt="Chocolate"
-                className="h-28 w-28 object-cover rounded-xl "
+                className="h-28 w-28 object-cover rounded-xl hover:scale-120 transition "
               />
 
               <img
                 src={strawberry}
                 alt="Strawberry"
-                className="h-28 w-28 object-cover rounded-xl "
+                className="h-28 w-28 object-cover rounded-xl hover:scale-120 transition"
               />
    
               <img
                 src={vanilla}
                 alt="Vanilla"
-                className="h-28 w-28 object-cover rounded-xl sh"
+                className="h-28 w-28 object-cover rounded-xl sh hover:scale-120 transition"
               />
 
               <img
                 src={mango}
                 alt="Mango"
-                className="h-28 w-28 object-cover rounded-xl shadow-md"
+                className="h-28 w-28 object-cover rounded-xl shadow-md hover:scale-120 transition"
               />
             </div>
           </div>
 
           
-          <div className="mt-12 max-w-4xl mx-auto" >
+          <div className="mt-12 max-w-2xl  lg:max-w-4xl mx-auto " >
             <p className="text-gray-700 leading-relaxed text-center" data-aos="fade-right">
               Enjoy a delicious and creamy ice cream that not only satisfies
               your sweet cravings but also supports your digestive wellness.

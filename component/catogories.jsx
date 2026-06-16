@@ -4,6 +4,7 @@ import strawberry from "../assets/strawberry.png";
 import vanilla from "../assets/vanilla.png";
 import bg from "../assets/bg.jpeg";
 
+
 function Categories() {
   return (
     <div className="bg-[#F6F1E9] min-h-screen py-10">
@@ -34,13 +35,13 @@ function Categories() {
       <div className="max-w-6xl mx-auto gap-8 mt-12 px-5">
         
       
-        <div className=" rounded-xl p-5 text-center" data-aos = "zoom-in">
+        <div className=" rounded-xl p-5 text-center lg-mx-w-full lg:max-w-6xl" data-aos = "zoom-in">
           <img
             src={chocolate}
             alt="Chocolate Ice Cream"
             className="w-full h-60 object-cover rounded-lg"
           />
-          <p className="mt-4 ">
+          <p className="mt-4  ">
             Chocolate 🍫
           </p>
         </div>
@@ -80,6 +81,7 @@ function Categories() {
             Strawberry 🍓
           </p>
         </div>
+       
 
       </div>
     </div>
