@@ -15,7 +15,7 @@ function Categories() {
       alt="picture"
       className="absolute top-0 right-0 left-0 opacity-30"
     />
-    <p>
+    <p data-aos="zoom-in">
           Experience a new way to enjoy ice cream. Crafted with carefully
       selected ingredients, our ice cream contains beneficial
       prebiotics and probiotics that support digestive wellness.
@@ -24,15 +24,6 @@ function Categories() {
     </p>
   </div>
 </section>
-<nav>
-  <div className="bg-amber-600 flex justify-center items-center  rounded-2xl opacity-20  fixed ">
-    <ul className="fixed flex gap-10"  >
-      <li>HOME</li>
-      <li>LOGIN</li>
-      <li>ABOUT</li>
-    </ul>
-  </div>
-</nav>
 
     
       <h1 className=" flex justify-center textalign-center  ">
@@ -43,7 +34,7 @@ function Categories() {
       <div className="max-w-6xl mx-auto gap-8 mt-12 px-5">
         
       
-        <div className=" rounded-xl p-5 text-center ">
+        <div className=" rounded-xl p-5 text-center" data-aos = "zoom-in">
           <img
             src={chocolate}
             alt="Chocolate Ice Cream"
@@ -55,7 +46,7 @@ function Categories() {
         </div>
 
         
-        <div className=" rounded-xl p-5 text-center">
+        <div className=" rounded-xl p-5 text-center" data-aos="zoom-in">
           <img
             src={mango}
             alt="Mango Ice Cream"
@@ -67,7 +58,7 @@ function Categories() {
         </div>
 
         
-        <div className=" rounded-xl p-5 text-center ">
+        <div className=" rounded-xl p-5 text-center "data-aos="zoom-in">
           <img
             src={vanilla}
             alt="Vanilla Ice Cream"
@@ -79,7 +70,7 @@ function Categories() {
         </div>
 
         
-        <div className=" rounded-xl  p-5 text-center">
+        <div className=" rounded-xl  p-5 text-center"data-aos="zoom-in">
           <img
             src={strawberry}
             alt="Strawberry Ice Cream"

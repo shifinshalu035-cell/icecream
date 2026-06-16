@@ -11,13 +11,19 @@ import picture4 from "../assets/pic4.png";
 
 
 function Hero(){
+  useEffect(()=>{
+    AOS.init({
+      duration:1000,
+      once:true 
+    });
+  },[]);
  
 return (
 
     <>
       
-      <section>
-        <div className="flex justify-center items-center py-8">
+      <section >
+        <div className="  hidden lg:flex justify-center items-center py-8">
           <ul className="flex items-center gap-12 text-lg ">
             <li >Home</li>
             <li>About</li>
@@ -79,20 +85,20 @@ return (
               <img
                 src={vanilla}
                 alt="Vanilla"
-                className="h-28 w-28 object-cover rounded-xl "
+                className="h-28 w-28 object-cover rounded-xl sh"
               />
 
               <img
                 src={mango}
                 alt="Mango"
-                className="h-28 w-28 object-cover rounded-xl"
+                className="h-28 w-28 object-cover rounded-xl shadow-md"
               />
             </div>
           </div>
 
           
-          <div className="mt-12 max-w-4xl mx-auto">
-            <p className="text-gray-700 leading-relaxed text-center">
+          <div className="mt-12 max-w-4xl mx-auto" >
+            <p className="text-gray-700 leading-relaxed text-center" data-aos="fade-right">
               Enjoy a delicious and creamy ice cream that not only satisfies
               your sweet cravings but also supports your digestive wellness.
               Enriched with beneficial probiotics and nourishing prebiotics,
